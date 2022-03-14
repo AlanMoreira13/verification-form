@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Criar uma conta</h2>
+      </div>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username"> Nome de usuário </label>
+          <input
+            placeholder="Digite seu nome de usuário"
+            type="text"
+            id="username"
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input placeholder="Digite seu Email" type="email" id="email" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Senha</label>
+          <input placeholder="Digite sua senha" type="password" id="password" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password-confirmation">Confirmação de Senha</label>
+          <input
+            placeholder="Digite a senha novamente"
+            type="password"
+            id="password-confirmation"
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/aff5eaffc9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
