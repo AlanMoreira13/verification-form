@@ -1,6 +1,10 @@
 # verification-form
 ##
-Formulário com verificação de dados, feito com html, css e javascript puro.
+Formulário com verificação de dados!!!<br>
+Tecnologias utilizadas:<br> 
+✔HTML<br>
+✔CSS<br>
+✔JAVASCRIPT<br>
 ##
 ![Captura de Tela (18)](https://user-images.githubusercontent.com/88805398/158210490-a325abdb-756c-4e8e-853d-76a6431f237d.png)
 ![Captura de Tela (19)](https://user-images.githubusercontent.com/88805398/158210498-e327f3e5-6bd6-40b2-ad8e-dafb5f4f3b88.png)
